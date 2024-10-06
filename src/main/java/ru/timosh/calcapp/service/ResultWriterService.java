@@ -24,7 +24,7 @@ public class ResultWriterService {
         if (numOperation == 4){
             return;
         } else if (numOperation == 1){
-            int answer = Calculator.subtraction(num1, num2);
+            int answer = Calculator.addition(num1, num2);
             System.out.println("Ура! У меня для тебя есть ответ: " + answer);
         } else if (numOperation == 2){
             int answer = Calculator.subtraction(num1, num2);
